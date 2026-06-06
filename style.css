@@ -1,0 +1,86 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #aaa;
+}
+
+li {
+float: left;
+border-right:1px solid #bbb;
+}
+li:last-child {
+border-right: none;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #bbb;
+}
+
+.active {
+background-color: #ceefdb;
+}
+ul {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.box{
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
+.boxy{
+  padding: 20px;
+  display: block;
+  margin: 5px;
+}
+.fly{float: left;
+clear:left;
+}
+.boxx{
+  border-width: 2px;
+  border-style: solid;
+}
+.blue{
+  color: #000000;
+  background-color: #ceefdb;
+  border-color: #000000;
+}
+.pikachu{
+  color:black;
+  background-color: #f1f1bc;
+  border-color: black;
+}
+.pokemon{
+  color: #f8e392;
+  background-color: #3C5AA6;
+}
+.box{
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
+.fuecoco{
+  color: #000000;
+  background-color: #ce5d5d;
+  border-color: #000000;
+}
+.sprig{
+  color: #000000;
+  background-color: #6abe66;
+  border-color: #000000;
+}
+.quaxly{
+  color: #000000;
+  background-color: #557aa7;
+  border-color: #000000;
+}
